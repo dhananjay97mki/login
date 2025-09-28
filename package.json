@@ -1,0 +1,25 @@
+{
+  "name": "login-system",
+  "version": "2.0.0",
+  "description": "Complete login system with Node.js, Express, PostgreSQL and auto port detection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "kill-port": "taskkill /F /IM node.exe",
+    "fresh-start": "npm run kill-port && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3", 
+    "bcrypt": "^5.1.1",
+    "express-session": "^1.17.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["nodejs", "express", "postgresql", "authentication"],
+  "author": "Your Name",
+  "license": "ISC"
+}

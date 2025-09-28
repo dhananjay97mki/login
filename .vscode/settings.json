@@ -1,0 +1,16 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5433,
+      "driver": "PostgreSQL",
+      "database": "login",
+      "name": "PG Local",
+      "username": "postgres",
+      "connectionTimeout": 30,
+      "password": "JetloverF22"
+    }
+  ]
+}
